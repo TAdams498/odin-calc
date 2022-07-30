@@ -39,6 +39,20 @@ body {
   width: 300px;
 }
 
+.numButtons {
+  max-width: 100px;
+  margin: auto;
+}
+
+#equal {
+  background-color: orange;
+}
+
+#operator {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .functions {
   display: flex;
   flex-direction: column;
