@@ -209,7 +209,6 @@ function backspace() {
   else {
     calculation.num2 = newDisplay;
   }
-  console.log(newDisplay);
   showOnDisplay(newDisplay);
 }
 
@@ -222,7 +221,6 @@ window.addEventListener("keydown", (event) => {
   const KEYS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", ".", "=", "+", "-", "*", "/", "Backspace", "Delete", "Enter"];
   const NUMKEYS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
   const OPKEYS = ["+", "-", "*", "/"];
-  console.log(event.key)
   if (KEYS.includes(event.key)) {
     if (NUMKEYS.includes(event.key)) {
       numButtonClick(event.key);
